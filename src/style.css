@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homeHeader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: bisque;
+    height: 94.5px;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 2px rgb(243, 239, 239);
+}
+.home,.menu,.contact{
+    width: 94.5px;
+    padding: 0 18.9px;
+}
+button{
+    width: 94.5px;
+    height: 37.8px;
+    font-size: 18px;
+    background-color:rgb(218, 218, 20);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px grey;
+}
+.logo{
+    margin-right: 26%;
+    color: orangered;
+    width: 113.4px;
+    margin-left: 75.6px;
+    font-weight: bold;
+    font-size: 38px;
+   
+}
+
+button{
+    margin-right: 2%;
+    
+}
+.profile{
+    width: 56.7px;
+    height: 56.7px;
+    margin-left: 22.7px;
+    margin-right: 18.9px;
+}
+.name{
+    margin-left: 37.8px;
+}
+.contact{
+    
+    margin-right: 15%;
+}
+.bannerHeading{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+}
+.bannerPara{
+    font-size: 22px;
+    color: bisque;
+    margin: 18.9px 0;
+    
+}
+.banner{
+    display: flex;
+    height: 440px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    background-color: rgb(39, 36, 36);
+    margin-top: 94.5px;
+    
+}
+.bannerDiv1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 60%;
+    
+}
+.bannerImg{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px grey;   
+
+}
+.bookButton{
+    width: 151.2px;
+    height: 37.8px;
+    background-color:rgb(109, 250, 109);
+    margin-top: 18.9px;
+}
+.content{
+    text-align: center;
+    padding-top: 18.9px;
+    background-color: rgb(173, 230, 173);
+    height: 1133.9px;
+    background-color: rgb(171, 218, 171);
+    
+} 
+.contentHeading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.divs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 13%;
+    gap: 10%;
+        
+}
+
+.div1,.div2,.div3,.div4,.div5,.div6{
+    
+    width: 280px;
+    height: 378px;
+    padding-top: 37.8px;
+    background-color:antiquewhite;
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px gray;
+    margin-bottom: 10%;
+
+    
+    
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+    width: 220px;
+    height: 189px;
+    border-radius: 10px;
+    
+}
+.name1,.name2,.name3,.name4,.name5,.name6{
+    font-weight: bold;
+    font-size: 29px;
+    margin-top: 10px;
+}
+.rate1,.rate2,.rate3,.rate4,.rate5,.rate6{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.menuAdd1,.menuAdd2,.menuAdd3,.menuAdd4,.menuAdd5,.menuAdd6{
+    width: 94.5px;
+    margin: 18.9px  90px;
+    
+    
+}
+.remove34,.remove35,.remove36,.remove37,.remove38,.remove39{
+    width: 94.5px;
+    height: 30.2px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(218, 218, 20);
+    margin: 18.9px  90px;
+    box-shadow: 3px 3px 4px grey;
+    padding-top: 7.5px;
+
+}
+.menuContent{
+    margin-top: 94.5px;
+}
+
+.menuHeadingDiv{
+    padding-top: 18.9px;
+    height: 56.7px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menuDivs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.menuDivs>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 270px;
+    height: 378px;
+    background-color: rgb(181, 207, 184);
+    margin-bottom: 100px;
+
+}
+.menuImg1,.menuImg2,.menuImg3,.menuImg4,.menuImg5,.menuImg6,.menuImg7,.menuImg8{
+    margin-top: 37.8px;
+    width: 200px;
+    height: 189px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+}
+.menuName1,.menuName2,.menuName3,.menuName4,.menuName5,.menuName6,.menuName7,.menuName8{
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.menuList1,.menuList2,.menuList3,.menuList4,.menuList5,.menuList6,.menuList7,.menuList8{
+    font-weight: bold;
+    font-size: 18px;
+    width: 226.8px;
+    height: 37.8px;
+    margin-top: 0.7cm;
+    background-color: rgb(218, 218, 20);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    letter-spacing: 1px;
+
+}
+.tiffin{
+    letter-spacing: 2px;
+}
+.listContent{    
+    margin-top: 94.5px;   
+    
+}
+.listContent>div{
+    box-shadow: 3px 3px 5px gray ;
+    width: 567px;
+    height: 415.7px;
+    margin: 113.4px 31%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding-top: 18.9px;
+
+}
+.ol1,.ol2,.ol3,.ol4,.ol5,.ol6,.ol7,.ol8{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 75.6px;
+    margin-top: 26.4px;
+    gap: 22.7px;
+
+}
+.ol1>div,.ol2>div,.ol3>div,.ol4>div,.ol5>div,.ol6>div,.ol7>div,.ol8>div{
+    display: flex;
+    justify-content: space-between;
+    width: 453.5px;
+    align-items: center;
+
+}
+.ol1 li,.ol2 li,.ol3 li,.ol4 li,.ol5 li,.ol6 li,.ol7 li,.ol8 li{
+    width: 226.8px;
+}
+
+.back{
+    width: 189px;
+    height: 37.8px;
+    margin-left: 113.4px;
+    background-color: rgb(238, 11, 11);
+    color: white;
+    
+}
+.price{
+    font-size: 23px;
+    color: rgb(226, 8, 8);
+}
+.menuTitle{
+    list-style: none;
+    font-size: 30px;
+   width: 15cm;
+   text-align: center;
+   font-weight: bold;
+   
+}
+.riceCancle,.dalCancle,.sabjiCancle,.chapatiCancle,.friedRiceCancle,.noodlesCancle,.soupCancle,.biryaniCancle{
+    width: 567px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 18.9px;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cart{
+    width: 500px;
+    height: 97%;
+    margin-top: 11.3px;
+    box-shadow: -3px -3px 5px grey;
+    position: fixed;
+    background-color: rgb(231, 231, 231);
+    top: 0;
+    right: 0;
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: scroll;
+    
+}
+.cartBack{
+    width: 75.6px;
+    height: 37.8px;
+    margin: 18.9px;
+    margin-bottom: 37.9px;
+}
+
+.cartList1,.cartList2,.cartList3,.cartList4,.cartList5,.cartList6,.cartList7,.cartList8,.cartList9,
+.cartList10,.cartList11,.cartList12,.cartList13,.cartList14,.cartList15,.cartList16,.cartList17,.cartList18,
+.cartList19,.cartList20,.cartList21,.cartList22,.cartList23,.cartList24,.cartList25,.cartList26,.cartList27,
+.cartList28,.cartList29,.cartList30,.cartList31,.cartList32,.cartList34,.cartList35,.cartList36,.cartList37,.cartList38,.cartList39{
+    margin-top: 37.8px;
+   
+}
+
+.nameCart1,.nameCart2,.nameCart3,.nameCart4,.nameCart5,.nameCart6,.nameCart7,.nameCart8,
+.nameCart9,.nameCart10,.nameCart11,.nameCart12,.nameCart13,.nameCart14,.nameCart15,.nameCart16,
+.nameCart17,.nameCart18,.nameCart19,.nameCart20,.nameCart21,.nameCart21,.nameCart22,.nameCart22,
+.nameCart23,.nameCart24,.nameCart25,.nameCart26,.nameCart27,.nameCart28,.nameCart29,.nameCart30,
+.nameCart31,.nameCart32,.nameCart34,.nameCart35,.nameCart36,.nameCart37,
+.nameCart38,.nameCart39{
+    width: 250px;
+    margin-left: 75.6px;
+    
+}
+.proceed{
+    text-align: center;
+    width: 226.8px;
+    margin-left: 113.4px;
+    background-color: rgb(50, 226, 44);
+    height: 30.2px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px grey;
+    padding-top: 0.1cm;
+    margin-top: 37.8px;
+}
+.prankBig{
+    width: 500px;
+    height: 97%;
+    margin-top: 0.3cm;
+    
+    box-shadow: -3px -3px 5px grey;
+    position: fixed;
+    background-color: rgb(231, 231, 231);
+    top: 0;
+    right: 0;
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: scroll;
+    flex-direction: column;
+}
+.prankBack{
+    margin: 0.5cm;
+}
+.comming{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 75.6px;
+    height: 189px;
+}
+.contactContent{
+    background-color: rgb(207, 207, 207);
+}
+.subContact{
+    width: 944.9px;
+    height: 491px;
+    margin-bottom: 75.6px;
+    margin-top: 150px;
+    margin-left: 300px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 3px 3px 4px grey;
+    background-color: aliceblue;
+}
+.mapImage{
+    width: 567px;
+    height: 415.7px;
+    box-shadow: 3px 3px 4px grey;
+    margin: 37.8px;
+    border-radius: 5px ;
+}
+.phone{
+    width: 302.3px;
+    height: 491.3px;
+    border-radius: 10px;
+    
+}
+.detailName1,.detailName2,.detailName3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:56.7px ;
+    text-decoration: underline;
+
+}
+.address,.time,.number{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 18.9px;
+}
+
